@@ -1,0 +1,27 @@
+---
+title: "Comparison Table Report"
+output: pdf_document
+params:
+  table: NA
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+# Comparison Table
+
+This report shows the comparison table generated from the data.
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(knitr)
+library(kableExtra)
+
+# Display the comparison table
+kable(params$table, caption = "Regional Comparison Table") %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"),
+                full_width = FALSE)
+
+
+
+
+
