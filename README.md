@@ -1,5 +1,5 @@
 # Marketing-Models
-This repository contains a collection of marketing models and analysis techniques used for data-driven marketing strategies. The models can assist in optimizing marketing performance, understanding customer behavior, and improving business decision-making.
+This repository contains a collection of marketing models and analysis techniques used for data-driven marketing strategies. The models can assist in optimizing marketing performance, understanding customer behavior, and improving business decision-making. The shiny app for the IPA is here [Shiny]( https://l9sxb9-enita-omuvwie.shinyapps.io/project/)
 
 # Features
 1. Customer Segmentation: Group customers based on behavior and demographics.
