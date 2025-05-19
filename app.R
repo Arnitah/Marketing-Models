@@ -18,7 +18,6 @@ library(scales)
 # ------------------------------------------------------
 
 # UI for the Shiny app
-# UI for the Shiny app
 ui <- fluidPage(
   
   # App title
